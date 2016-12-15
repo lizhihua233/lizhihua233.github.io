@@ -16,20 +16,6 @@
     </entry>
 
     
-    <entry>
-      <title><![CDATA[Hello World]]></title>
-      <url>%2F2016%2F09%2F21%2Fhello-world%2F</url>
-      <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
-    </entry>
-
-    
-    <entry>
-      <title><![CDATA[UI练习]]></title>
-      <url>%2F2016%2F09%2F19%2Fui-e7-bb-83-e4-b9-a0%2F</url>
-      <content type="text"><![CDATA[[vc_row][vc_column width=”1/1”][vc_column_text]虽然自己的目标是做一名交互设计师，但毕业是美术出身，有些时候还是得干点画画相关的事情。[/vc_column_text][/vc_column][/vc_row][vc_row][vc_column width=”1/1”][vc_gallery el_id=”gallery-829048” medias=”139,129” gutter_size=”3” media_items=”media|lightbox|original,icon,title,caption” screen_lg=”1000” screen_md=”600” screen_sm=”480” single_width=”12” single_overlay_opacity=”50” single_padding=”2”][/vc_column][/vc_row]]]></content>
-    </entry>
-
-    
   
   
 </search>
