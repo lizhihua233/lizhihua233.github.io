@@ -245,6 +245,7 @@
 }
 .fa-home:before {
   content: "\f015";
+  font-size: 15px!important;
 }
 .fa-file-o:before {
   content: "\f016";
