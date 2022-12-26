@@ -1,7 +1,7 @@
 
 
 <!DOCTYPE html>
-<html lang="en" color-mode=light>
+<html lang="en" >
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -103,9 +103,9 @@
         },
       },
       qrcode: {
-        enable: true,
-        type: 'url',
-        image: 'https://pic.izhaoo.com/weapp-code.jpg',
+        enable: false,
+        type: 'image',
+        image: '/images/theme/qr.webp',
       },
       toc: {
         enable: true
@@ -145,10 +145,6 @@
         <i class="iconfont iconhome j-navbar-back-home"></i>
       
       
-        <i class="iconfont iconqrcode j-navbar-qrcode"></i>
-      
-      
-        <i class="iconfont iconmoono" id="color-toggle" color-toggle="light"></i>
       
       
     </div>
@@ -156,8 +152,6 @@
     <div class="right">
       <i class="iconfont iconmenu j-navbar-menu"></i>
     </div>
-    
-      <div id="qrcode-navbar"></div>
     
   </nav>
 
@@ -191,7 +185,7 @@
   <section class="archive">
     <div class="archive-container">
       <div class="archive-post">
-        <h3 class="archive-total">归档: 1 篇</h3>
+        <h3 class="archive-total">归档: 2 篇</h3>
         
         
           
@@ -202,6 +196,12 @@
             <a class="archive-title" href="/2022/12/26/hello-world/">Hello World</a>
           </div>
         
+          
+          <div class="archive-item">
+            <a class="archive-date" href="/2022/12/26/%E8%93%9D%E9%B2%B8LOGO%E8%AE%BE%E8%AE%A1/">December 26</a>
+            <a class="archive-title" href="/2022/12/26/%E8%93%9D%E9%B2%B8LOGO%E8%AE%BE%E8%AE%A1/">蓝鲸LOGO设计方案探索</a>
+          </div>
+        
       </div>
     </div>
   </section>
@@ -210,7 +210,7 @@
 
 <footer class="footer">
   <div class="footer-social"><a 
-        href="tencent://message/?Menu=yes&uin=894519210 "
+        href="tencent://message/?Menu=yes&uin=361125276 "
         target="_blank"
         class="footer-social-item"
         onMouseOver="this.style.color= '#12B7F5'" 
@@ -224,26 +224,26 @@
         onMouseOut="this.style.color='#33333D'">
           <i class="iconfont  iconwechat-fill "></i>
       </a><a 
-        href="https://www.instagram.com/izhaoo/ "
+        href="https://www.instagram.com/hummer_lee/ "
         target="_blank"
         class="footer-social-item"
         onMouseOver="this.style.color= '#DA2E76'" 
         onMouseOut="this.style.color='#33333D'">
           <i class="iconfont  iconinstagram "></i>
       </a><a 
-        href="https://github.com/zhaoo "
+        href="https://github.com/lizhihua233 "
         target="_blank"
         class="footer-social-item"
         onMouseOver="this.style.color= '#9f7be1'" 
         onMouseOut="this.style.color='#33333D'">
           <i class="iconfont  icongithub-fill "></i>
       </a><a 
-        href="mailto:izhaoo@163.com "
+        href="mailto:lizhihua233@gmail.com "
         target="_blank"
         class="footer-social-item"
-        onMouseOver="this.style.color=#00CC4C" 
+        onMouseOver="this.style.color= '#ffffff'" 
         onMouseOut="this.style.color='#33333D'">
-          <i class="iconfont  iconmail"></i>
+          <i class="iconfont  iconmail "></i>
       </a></div>
   
     <div class="footer-copyright"><p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  Theme - <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">zhaoo</a></p></div>
@@ -261,10 +261,6 @@
   </div>
   
   
-  
-    
-<script src="/js/color-mode.js"></script>
-
   
   
 </body>
@@ -291,10 +287,6 @@
 
 
 
-
-
-  
-<script src="https://cdn.bootcdn.net/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
 
 
 
