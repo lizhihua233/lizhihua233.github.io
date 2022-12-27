@@ -863,7 +863,7 @@ body input {
 @media (hover: hover) and (pointer: fine) {
   .fab:hover {
     background-color: #00cc4c;
-    background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+    background-image: #00cc4c;
     cursor: pointer;
   }
 }

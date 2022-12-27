@@ -41,12 +41,17 @@
       </tags>
   </entry>
   <entry>
+    <title>categories</title>
+    <url>/categories/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>个人简历</title>
     <url>/about/index.html</url>
     <content><![CDATA[<h3 id="Hummer不是锤子"><a href="#Hummer不是锤子" class="headerlink" title="Hummer不是锤子"></a>Hummer不是锤子</h3><p><span><i class="iconfont iconwechat-fill"></i> WeChat：nastu-li</span></p>
 <p><span><i class="iconfont iconQQ"></i> QQ：361125276</span></p>
 <p><span><i class="iconfont iconinstagram"></i> hummer_lee</span></p>
-<p><span><i class="iconfont iconmail"></i> E-mail：<a href="mailto:&#108;&#x69;&#x7a;&#x68;&#105;&#104;&#117;&#x61;&#x32;&#51;&#51;&#x40;&#103;&#109;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#111;&#x6d;">&#108;&#x69;&#x7a;&#x68;&#105;&#104;&#117;&#x61;&#x32;&#51;&#51;&#x40;&#103;&#109;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#111;&#x6d;</a></span></p>
+<p><span><i class="iconfont iconmail"></i> E-mail：<a href="mailto:&#x6c;&#105;&#122;&#x68;&#x69;&#x68;&#x75;&#x61;&#x32;&#x33;&#x33;&#x40;&#103;&#109;&#x61;&#x69;&#x6c;&#46;&#99;&#x6f;&#x6d;">&#x6c;&#105;&#122;&#x68;&#x69;&#x68;&#x75;&#x61;&#x32;&#x33;&#x33;&#x40;&#103;&#109;&#x61;&#x69;&#x6c;&#46;&#99;&#x6f;&#x6d;</a></span></p>
 <h1 id="教育经历"><a href="#教育经历" class="headerlink" title="# 教育经历"></a># 教育经历</h1><p><strong>清华大学美术学院·北京</strong></p>
 <blockquote>
 <p>2011.08 ~ 2015.07    <strong>艺术设计（信息设计方向）</strong></p>
@@ -71,28 +76,18 @@
 ]]></content>
   </entry>
   <entry>
-    <title>categories</title>
-    <url>/categories/index.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>相册</title>
     <url>/galleries/index.html</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>上海植物园</title>
-    <url>/galleries/%E4%B8%8A%E6%B5%B7%E6%A4%8D%E7%89%A9%E5%9B%AD/index.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>标签</title>
-    <url>/tags/index.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>宝龙美术馆</title>
     <url>/galleries/%E5%AE%9D%E9%BE%99%E7%BE%8E%E6%9C%AF%E9%A6%86/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>上海植物园</title>
+    <url>/galleries/%E4%B8%8A%E6%B5%B7%E6%A4%8D%E7%89%A9%E5%9B%AD/index.html</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -103,6 +98,11 @@
   <entry>
     <title>淮海中路-外滩</title>
     <url>/galleries/%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF-%E5%A4%96%E6%BB%A9/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>标签</title>
+    <url>/tags/index.html</url>
     <content><![CDATA[]]></content>
   </entry>
 </search>
