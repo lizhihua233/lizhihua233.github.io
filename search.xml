@@ -5,10 +5,13 @@
     <url>/2022/12/26/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h3 id=""><a href="#" class="headerlink" title=""></a></h3>]]></content>
+      <tags>
+        <tag>测试</tag>
+      </tags>
   </entry>
   <entry>
     <title>蓝鲸LOGO设计方案探索</title>
-    <url>/2022/11/13/%E8%93%9D%E9%B2%B8LOGO%E8%AE%BE%E8%AE%A1/</url>
+    <url>/2022/11/27/%E8%93%9D%E9%B2%B8LOGO%E8%AE%BE%E8%AE%A1/</url>
     <content><![CDATA[<h1 id="（一）前期设计"><a href="#（一）前期设计" class="headerlink" title="（一）前期设计"></a>（一）前期设计</h1><h2 id="1-字母组合"><a href="#1-字母组合" class="headerlink" title="1.字母组合"></a>1.字母组合</h2><p>字母L和J的组合，形成一个鲸鱼翘尾的姿态</p>
 <p><img src="https://blog-1252784436.cos.ap-shanghai.myqcloud.com/image.png"></p>
 <h2 id="2-抽象形符号"><a href="#2-抽象形符号" class="headerlink" title="2.抽象形符号"></a>2.抽象形符号</h2><p>灵感来源于菲涅尔透镜的圈纹，取BLOO中的两个O</p>
@@ -25,5 +28,16 @@
 <p><img src="https://blog-1252784436.cos.ap-shanghai.myqcloud.com/image%207.png"></p>
 <p><img src="https://blog-1252784436.cos.ap-shanghai.myqcloud.com/image%208.png"></p>
 ]]></content>
+      <categories>
+        <category>设计</category>
+        <category>品牌设计</category>
+        <category>LOGO设计</category>
+        <category>字体设计</category>
+      </categories>
+      <tags>
+        <tag>LOGO设计</tag>
+        <tag>品牌设计</tag>
+        <tag>字体设计</tag>
+      </tags>
   </entry>
 </search>
