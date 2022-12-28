@@ -846,14 +846,14 @@ body input {
 }
 .underline {
   position: relative;
-  color: var(--color-text) !important;
+  padding: 8px 0;
 }
 .underline:before {
   content: '';
   position: absolute;
   bottom: -3px;
   width: 100%;
-  background: var(--color-text);
+  background: #00cc4c;
   height: 2px;
   transition: transform 0.2s;
   transform: scaleX(0);
@@ -967,7 +967,7 @@ body input {
   height: 100vh;
   top: 0;
   left: 0;
-  background-color: rgba(255,255,255,0.7);
+  background-color: rgba(255,255,255,0.8) !important;
   -webkit-backdrop-filter: saturate(180%) blur(10px);
   backdrop-filter: saturate(180%) blur(10px);
   z-index: 100;
@@ -997,10 +997,10 @@ body input {
 .menu .menu-container .menu-content .menu-item {
   font-size: 2em;
   list-style: none;
-  margin: 5px 10px;
+  margin: 5px 16px;
 }
 .menu .menu-container .menu-content .menu-item a.active {
-  text-decoration: line-through;
+  color: #00cc4c !important;
 }
 .menu .menu-container .menu-close {
   position: absolute;

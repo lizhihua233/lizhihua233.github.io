@@ -103,7 +103,7 @@
         },
       },
       qrcode: {
-        enable: false,
+        enable: true,
         type: 'image',
         image: '/images/theme/qr.webp',
       },
@@ -121,7 +121,7 @@
         page_black_list: ''
       },
       search: {
-        enable: false,
+        enable: true,
         path: '/search.xml'
       }
     }
@@ -145,15 +145,21 @@
         <i class="iconfont iconhome j-navbar-back-home"></i>
       
       
+        <i class="iconfont iconqrcode j-navbar-qrcode"></i>
+      
       
         <i class="iconfont iconmoono" id="color-toggle" color-toggle="light"></i>
       
+      
+        <i class="iconfont iconsearch j-navbar-search"></i>
       
     </div>
     <div class="center">categories</div>
     <div class="right">
       <i class="iconfont iconmenu j-navbar-menu"></i>
     </div>
+    
+      <div id="qrcode-navbar"></div>
     
   </nav>
 
@@ -189,7 +195,7 @@
   <h1 class="header-title">分类</h1>
   <p class="header-subtitle">共: 9 个</p>
 </header>
-    <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%AE%BE%E8%AE%A1/">设计</a><span class="category-list-count">2</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%AE%BE%E8%AE%A1/%E4%BA%A4%E4%BA%92%E8%AE%BE%E8%AE%A1/">交互设计</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%AE%BE%E8%AE%A1/%E4%BD%93%E9%AA%8C%E8%AE%BE%E8%AE%A1/">体验设计</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%AE%BE%E8%AE%A1/%E8%AE%BE%E8%AE%A1%E6%94%B9%E7%89%88/">设计改版</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%AE%BE%E8%AE%A1/%E5%93%81%E7%89%8C%E8%AE%BE%E8%AE%A1/">品牌设计</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%AE%BE%E8%AE%A1/LOGO%E8%AE%BE%E8%AE%A1/">LOGO设计</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%AE%BE%E8%AE%A1/%E5%AD%97%E4%BD%93%E8%AE%BE%E8%AE%A1/">字体设计</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%80%BB%E7%BB%93/">总结</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%80%BB%E7%BB%93/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/">年终总结</a><span class="category-list-count">1</span></li></ul></li></ul>
+    <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%AE%BE%E8%AE%A1/">设计</a><span class="category-list-count">2</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%AE%BE%E8%AE%A1/%E5%93%81%E7%89%8C%E8%AE%BE%E8%AE%A1/">品牌设计</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%AE%BE%E8%AE%A1/%E4%BA%A4%E4%BA%92%E8%AE%BE%E8%AE%A1/">交互设计</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%AE%BE%E8%AE%A1/LOGO%E8%AE%BE%E8%AE%A1/">LOGO设计</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%AE%BE%E8%AE%A1/%E4%BD%93%E9%AA%8C%E8%AE%BE%E8%AE%A1/">体验设计</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%AE%BE%E8%AE%A1/%E5%AD%97%E4%BD%93%E8%AE%BE%E8%AE%A1/">字体设计</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%AE%BE%E8%AE%A1/%E8%AE%BE%E8%AE%A1%E6%94%B9%E7%89%88/">设计改版</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%80%BB%E7%BB%93/">总结</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%80%BB%E7%BB%93/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/">年终总结</a><span class="category-list-count">1</span></li></ul></li></ul>
   </section>
 </main>
   
@@ -253,6 +259,20 @@
 
   
   
+    <div class="search">
+  <div class="search-container">
+    <div class="search-close">
+      <i class="iconfont iconbaseline-close-px"></i>
+    </div>
+    <div class="search-input-wrapper">
+      <i class="search-input-icon iconfont iconsearch"></i>
+      <input class="search-input" type="search" id="search-input" placeholder="Search..." autofocus autocomplete="off"
+        autocorrect="off" autocapitalize="off">
+    </div>
+    <div class="search-output" id="search-output"></div>
+  </div>
+</div>
+  
 </body>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -277,6 +297,10 @@
 
 
 
+
+
+  
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
 
 
 

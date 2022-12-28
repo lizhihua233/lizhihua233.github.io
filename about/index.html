@@ -103,7 +103,7 @@
         },
       },
       qrcode: {
-        enable: false,
+        enable: true,
         type: 'image',
         image: '/images/theme/qr.webp',
       },
@@ -121,7 +121,7 @@
         page_black_list: ''
       },
       search: {
-        enable: false,
+        enable: true,
         path: '/search.xml'
       }
     }
@@ -145,15 +145,21 @@
         <i class="iconfont iconhome j-navbar-back-home"></i>
       
       
+        <i class="iconfont iconqrcode j-navbar-qrcode"></i>
+      
       
         <i class="iconfont iconmoono" id="color-toggle" color-toggle="light"></i>
       
+      
+        <i class="iconfont iconsearch j-navbar-search"></i>
       
     </div>
     <div class="center">个人简历</div>
     <div class="right">
       <i class="iconfont iconmenu j-navbar-menu"></i>
     </div>
+    
+      <div id="qrcode-navbar"></div>
     
   </nav>
 
@@ -201,7 +207,7 @@
         </span>
 
       
-      <span class="post-info-item" style="letter-spacing: 1px"><i class="iconfont iconfont-size" style="opacity: 0.6"></i>573(字)</span>
+      <span class="post-info-item" style="letter-spacing: 1px"><i class="iconfont iconfont-size" style="opacity: 0.6"></i>574(字)</span>
     </div>
   </div>
 </section>
@@ -211,7 +217,7 @@
         <h3 id="Hummer不是锤子"><a href="#Hummer不是锤子" class="headerlink" title="Hummer不是锤子"></a>Hummer不是锤子</h3><p><span><i class="iconfont iconwechat-fill"></i> WeChat：nastu-li</span></p>
 <p><span><i class="iconfont iconQQ"></i> QQ：361125276</span></p>
 <p><span><i class="iconfont iconinstagram"></i> hummer_lee</span></p>
-<p><span><i class="iconfont iconmail"></i> E-mail：<a href="mailto:&#x6c;&#105;&#x7a;&#x68;&#105;&#x68;&#x75;&#97;&#50;&#x33;&#x33;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#109;">&#x6c;&#105;&#x7a;&#x68;&#105;&#x68;&#x75;&#97;&#50;&#x33;&#x33;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#109;</a></span></p>
+<p><span><i class="iconfont iconmail"></i> E-mail：<a href="mailto:&#108;&#105;&#122;&#x68;&#105;&#104;&#117;&#x61;&#x32;&#x33;&#51;&#x40;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#x6d;">&#108;&#105;&#122;&#x68;&#105;&#104;&#117;&#x61;&#x32;&#x33;&#51;&#x40;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#x6d;</a></span></p>
 <h1 id="教育经历"><a href="#教育经历" class="headerlink" title="# 教育经历"></a># 教育经历</h1><p><strong>清华大学美术学院·北京</strong></p>
 <blockquote>
 <p>2011.08 ~ 2015.07    <strong>艺术设计（信息设计方向）</strong></p>
@@ -343,6 +349,20 @@
 
   
   
+    <div class="search">
+  <div class="search-container">
+    <div class="search-close">
+      <i class="iconfont iconbaseline-close-px"></i>
+    </div>
+    <div class="search-input-wrapper">
+      <i class="search-input-icon iconfont iconsearch"></i>
+      <input class="search-input" type="search" id="search-input" placeholder="Search..." autofocus autocomplete="off"
+        autocorrect="off" autocapitalize="off">
+    </div>
+    <div class="search-output" id="search-output"></div>
+  </div>
+</div>
+  
 </body>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -367,6 +387,10 @@
 
 
 
+
+
+  
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
 
 
 
