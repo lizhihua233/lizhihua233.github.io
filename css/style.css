@@ -699,6 +699,24 @@ body input {
     max-width: 100%;
   }
 }
+@font-face {
+  font-family: 'LXGWWenKaiMonoGB';
+  src: url("../diy-font/LXGWWenKaiMonoGB-Light.ttf") format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LXGWWenKaiMonoGB';
+  src: url("../diy-font/LXGWWenKaiMonoGB-Regular.ttf") format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LXGWWenKaiMonoGB';
+  src: url("../diy-font/LXGWWenKaiMonoGB-Bold.ttf") format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
 .zui-notification {
   position: fixed;
   margin: 0;
