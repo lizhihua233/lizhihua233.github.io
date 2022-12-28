@@ -196,7 +196,14 @@
     <div class="head-info">
       <span class="post-info-item" ><i class="iconfont iconcalendar" style="opacity: 0.6"></i>2022年12月28日 00:12</span>
       
-      <span class="post-info-item"><i class="iconfont iconfont-size" style="opacity: 0.6"></i><strong>571</strong> 字</span>
+        <span class="post-info-item">
+          <i class="iconfont iconeye" style="opacity: 0.6"></i><span id="/about/index.html" class="leancloud-counter" data-flag-title="个人简历"></span>
+        </span>
+        <span class="post-info-item">
+          <i class="iconfont iconheart" style="opacity: 0.6"></i><span id="/about/index.html" class="leancloud-like" data-flag-title="个人简历"></span>
+        </span>
+      
+      <span class="post-info-item"><i class="iconfont iconfont-size" style="opacity: 0.6"></i><strong>572</strong> 字</span>
     </div>
   </div>
 </section>
@@ -206,7 +213,7 @@
         <h3 id="Hummer不是锤子"><a href="#Hummer不是锤子" class="headerlink" title="Hummer不是锤子"></a>Hummer不是锤子</h3><p><span><i class="iconfont iconwechat-fill"></i> WeChat：nastu-li</span></p>
 <p><span><i class="iconfont iconQQ"></i> QQ：361125276</span></p>
 <p><span><i class="iconfont iconinstagram"></i> hummer_lee</span></p>
-<p><span><i class="iconfont iconmail"></i> E-mail：<a href="mailto:&#x6c;&#x69;&#122;&#104;&#x69;&#104;&#x75;&#x61;&#50;&#51;&#x33;&#64;&#103;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;">&#x6c;&#x69;&#122;&#104;&#x69;&#104;&#x75;&#x61;&#50;&#51;&#x33;&#64;&#103;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;</a></span></p>
+<p><span><i class="iconfont iconmail"></i> E-mail：<a href="mailto:&#108;&#x69;&#x7a;&#104;&#x69;&#104;&#117;&#x61;&#50;&#51;&#51;&#x40;&#103;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;">&#108;&#x69;&#x7a;&#104;&#x69;&#104;&#117;&#x61;&#50;&#51;&#51;&#x40;&#103;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;</a></span></p>
 <h1 id="教育经历"><a href="#教育经历" class="headerlink" title="# 教育经历"></a># 教育经历</h1><p><strong>清华大学美术学院·北京</strong></p>
 <blockquote>
 <p>2011.08 ~ 2015.07    <strong>艺术设计（信息设计方向）</strong></p>
@@ -370,6 +377,82 @@
 <script src="/js/script.js"></script>
 
 
+
+  <script>
+  $.getScript("//cdn.jsdelivr.net/npm/leancloud-storage@4.1.0/dist/av-min.js", () => {
+
+    AV.init({
+      appId: 'KR2xj1vKpNqmYDoPc2TS2ukX-9Nh9j0Va',
+      appKey: 'zNmlrXqAM7HConHKM6JWTiwd',
+      serverURLs: 'https://leancloud.cn/',
+    });
+
+    const Counter = AV.Object.extend("Counter");
+    const Like = AV.Object.extend("Like");
+
+    const showCount = (Counter) => {
+      const asyncLimit = new AsyncLimit(2);
+      $(".leancloud-counter").each(async (e) => {
+        const url = $(".leancloud-counter").eq(e).attr('id').trim();
+        const query = new AV.Query("Counter");
+        query.equalTo("words", url);
+        let count = await asyncLimit.run(() => query.count());
+        $(".leancloud-counter").eq(e).text(count ? count : 0);
+      });
+    }
+
+    const addCount = (Counter) => {
+      const url = $(".leancloud-counter").length === 1 ? $(".leancloud-counter").attr('id').trim() : 'https://hummer.work';
+      var query = new Counter;
+      query.save({
+        words: url
+      });
+    }
+
+    const showLike = (Like) => {
+      const asyncLimit = new AsyncLimit(2);
+      $(".leancloud-like").each(async (e) => {
+        const url = $(".leancloud-like").eq(e).attr('id').trim();
+        const query = new AV.Query("Like");
+        query.equalTo("path", url);
+        let count = await asyncLimit.run(() => query.count());
+        $(".leancloud-like").eq(e).text(count ? count : 0);
+      });
+    }
+
+    const addLike = (Like) => {
+      const url = $(".leancloud-like").length === 1 ? $(".leancloud-like").attr('id').trim() : 'https://hummer.work';
+      var query = new Like;
+      query.save({
+        path: url,
+        nickName: 'Anonymous'
+      });
+      $(".leancloud-like").addClass('islike');
+      $(".fab-like").children(".iconfont").removeClass("iconheart").addClass("iconheart-fill").css("color", "#eb3223");
+      ZHAOO.zui.message({ text: '爱你哦~', type: 'success' });
+      setTimeout(() => showLike(Like), 1000);
+    }
+
+    const handleLikeClick = () => {
+      const isLike = $(".leancloud-like").length === 1 && $(".leancloud-like").hasClass('islike') ? true : false;
+      if (isLike) {
+        ZHAOO.zui.message({ text: '小心心不可以收回呢~', type: 'warning' });
+      } else {
+        addLike(Like);
+      }
+    }
+
+    $(function () {
+      addCount(Counter);
+      showCount(Counter);
+      showLike(Like);
+      $(".fab-like").on("click", function () {
+        handleLikeClick();
+      });
+    });
+
+  });
+</script>
 
 
 

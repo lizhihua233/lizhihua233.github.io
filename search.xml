@@ -41,23 +41,13 @@
       </tags>
   </entry>
   <entry>
-    <title>categories</title>
-    <url>/categories/index.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>标签</title>
     <url>/tags/index.html</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>相册</title>
-    <url>/galleries/index.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>上海植物园</title>
-    <url>/galleries/%E4%B8%8A%E6%B5%B7%E6%A4%8D%E7%89%A9%E5%9B%AD/index.html</url>
+    <title>淮海中路-外滩</title>
+    <url>/galleries/%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF-%E5%A4%96%E6%BB%A9/index.html</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -66,7 +56,7 @@
     <content><![CDATA[<h3 id="Hummer不是锤子"><a href="#Hummer不是锤子" class="headerlink" title="Hummer不是锤子"></a>Hummer不是锤子</h3><p><span><i class="iconfont iconwechat-fill"></i> WeChat：nastu-li</span></p>
 <p><span><i class="iconfont iconQQ"></i> QQ：361125276</span></p>
 <p><span><i class="iconfont iconinstagram"></i> hummer_lee</span></p>
-<p><span><i class="iconfont iconmail"></i> E-mail：<a href="mailto:&#x6c;&#x69;&#122;&#104;&#x69;&#104;&#x75;&#x61;&#50;&#51;&#x33;&#64;&#103;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;">&#x6c;&#x69;&#122;&#104;&#x69;&#104;&#x75;&#x61;&#50;&#51;&#x33;&#64;&#103;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;</a></span></p>
+<p><span><i class="iconfont iconmail"></i> E-mail：<a href="mailto:&#108;&#x69;&#x7a;&#104;&#x69;&#104;&#117;&#x61;&#50;&#51;&#51;&#x40;&#103;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;">&#108;&#x69;&#x7a;&#104;&#x69;&#104;&#117;&#x61;&#50;&#51;&#51;&#x40;&#103;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;</a></span></p>
 <h1 id="教育经历"><a href="#教育经历" class="headerlink" title="# 教育经历"></a># 教育经历</h1><p><strong>清华大学美术学院·北京</strong></p>
 <blockquote>
 <p>2011.08 ~ 2015.07    <strong>艺术设计（信息设计方向）</strong></p>
@@ -91,8 +81,8 @@
 ]]></content>
   </entry>
   <entry>
-    <title>福州-平潭岛</title>
-    <url>/galleries/%E7%A6%8F%E5%B7%9E-%E5%B9%B3%E6%BD%AD%E5%B2%9B/index.html</url>
+    <title>categories</title>
+    <url>/categories/index.html</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -101,8 +91,18 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>淮海中路-外滩</title>
-    <url>/galleries/%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF-%E5%A4%96%E6%BB%A9/index.html</url>
+    <title>相册</title>
+    <url>/galleries/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>福州-平潭岛</title>
+    <url>/galleries/%E7%A6%8F%E5%B7%9E-%E5%B9%B3%E6%BD%AD%E5%B2%9B/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>上海植物园</title>
+    <url>/galleries/%E4%B8%8A%E6%B5%B7%E6%A4%8D%E7%89%A9%E5%9B%AD/index.html</url>
     <content><![CDATA[]]></content>
   </entry>
 </search>
