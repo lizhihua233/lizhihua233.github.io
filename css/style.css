@@ -1402,10 +1402,12 @@ body input {
   margin-bottom: 30px;
 }
 .post .post-item .post-wrap:hover {
-  box-shadow: 0 12px 36px -4px rgba(0,0,0,0.3);
+  box-shadow: 0 12px 48px -4px rgba(0,0,0,0.2);
+  transform: translateY(-4px);
+  transition: 0.2s;
 }
 .post .post-item .post-wrap {
-  box-shadow: 0 8px 16px -2px rgba(16,19,17,0.16);
+  box-shadow: 0 8px 24px -2px rgba(153,153,153,0.12);
   background-color: var(--color-background);
 }
 .post .post-item .post-wrap .post-top {
@@ -1459,7 +1461,7 @@ body input {
 .post .post-item .post-wrap .post-content {
   position: relative;
   padding: 20px;
-  height: 180px;
+  height: 108px;
 }
 .post .post-item .post-wrap .post-content-wrap {
   height: 110px;
@@ -1483,7 +1485,7 @@ body input {
   color: var(--color-text-third);
 }
 .post .post-item .post-wrap .post-content .post-info .post-info-item {
-  margin-right: 10px;
+  margin-right: 16px;
 }
 .post .post-item .post-wrap .post-content .post-info .post-info-item i {
   font-size: 1em;
@@ -1501,7 +1503,7 @@ body input {
 }
 .article .wrap {
   margin: 0 auto;
-  box-shadow: 0 8px 16px -2px rgba(16,19,17,0.16);
+  box-shadow: 0 8px 24px -2px rgba(153,153,153,0.12);
 }
 @media (max-width: 576px) {
   .article .wrap {
@@ -1708,7 +1710,7 @@ body input {
   padding: 10px;
   width: 200px;
   height: 200px;
-  box-shadow: 0 8px 16px -2px rgba(16,19,17,0.16);
+  box-shadow: 0 8px 24px -2px rgba(153,153,153,0.12);
   position: absolute;
   left: calc(50% - 100px);
   bottom: 70px;
