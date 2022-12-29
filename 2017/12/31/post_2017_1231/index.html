@@ -28,7 +28,7 @@
 
   
     
-<link rel="stylesheet" href="https://at.alicdn.com/t/font_1445822_p6ry5n7lrr.css">
+<link rel="stylesheet" href="https://at.alicdn.com/t/c/font_3841722_q1ee1qmjxj.css">
 
   
 
@@ -246,6 +246,8 @@
       
         <section class="comments">
   
+    <div class="btn" id="comments-btn">查看评论</div>
+  
   
 <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
 <div id="gitalk" class="gitalk"></div>
@@ -260,7 +262,7 @@
       owner: 'lizhihua233',
       admin: 'lizhihua233'
     });
-    if ( false ) {
+    if ( true ) {
       $("#comments-btn").on("click", function () {
         $(this).hide();
         gitalk.render('gitalk');
